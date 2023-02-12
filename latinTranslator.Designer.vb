@@ -33,78 +33,98 @@ Partial Class latinTranslator
         '
         'btnSinister
         '
-        Me.btnSinister.Font = New System.Drawing.Font("Times New Roman", 10.0!)
-        Me.btnSinister.Location = New System.Drawing.Point(24, 152)
+        Me.btnSinister.BackColor = System.Drawing.Color.LightGray
+        Me.btnSinister.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnSinister.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnSinister.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.btnSinister.Location = New System.Drawing.Point(33, 152)
         Me.btnSinister.Name = "btnSinister"
-        Me.btnSinister.Size = New System.Drawing.Size(114, 29)
+        Me.btnSinister.Size = New System.Drawing.Size(105, 33)
         Me.btnSinister.TabIndex = 0
         Me.btnSinister.Text = "Sinister"
-        Me.btnSinister.UseVisualStyleBackColor = True
+        Me.btnSinister.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnSinister.UseVisualStyleBackColor = False
         '
         'btnMedium
         '
-        Me.btnMedium.Font = New System.Drawing.Font("Times New Roman", 10.0!)
-        Me.btnMedium.Location = New System.Drawing.Point(144, 152)
+        Me.btnMedium.BackColor = System.Drawing.Color.LightGray
+        Me.btnMedium.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnMedium.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnMedium.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.btnMedium.Location = New System.Drawing.Point(149, 152)
         Me.btnMedium.Name = "btnMedium"
-        Me.btnMedium.Size = New System.Drawing.Size(114, 29)
+        Me.btnMedium.Size = New System.Drawing.Size(105, 33)
         Me.btnMedium.TabIndex = 1
         Me.btnMedium.Text = "Medium"
-        Me.btnMedium.UseVisualStyleBackColor = True
+        Me.btnMedium.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnMedium.UseVisualStyleBackColor = False
         '
         'btnDexter
         '
-        Me.btnDexter.Font = New System.Drawing.Font("Times New Roman", 10.0!)
+        Me.btnDexter.BackColor = System.Drawing.Color.LightGray
+        Me.btnDexter.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnDexter.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnDexter.Font = New System.Drawing.Font("Arial", 9.0!)
         Me.btnDexter.Location = New System.Drawing.Point(264, 152)
         Me.btnDexter.Name = "btnDexter"
-        Me.btnDexter.Size = New System.Drawing.Size(114, 29)
+        Me.btnDexter.Size = New System.Drawing.Size(105, 33)
         Me.btnDexter.TabIndex = 2
         Me.btnDexter.Text = "Dexter"
-        Me.btnDexter.UseVisualStyleBackColor = True
+        Me.btnDexter.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnDexter.UseVisualStyleBackColor = False
         '
         'btnExit
         '
-        Me.btnExit.Font = New System.Drawing.Font("Times New Roman", 10.0!)
-        Me.btnExit.Location = New System.Drawing.Point(144, 192)
+        Me.btnExit.BackColor = System.Drawing.Color.LightGray
+        Me.btnExit.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray
+        Me.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnExit.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.btnExit.Location = New System.Drawing.Point(149, 192)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(114, 29)
+        Me.btnExit.Size = New System.Drawing.Size(105, 33)
         Me.btnExit.TabIndex = 3
         Me.btnExit.Text = "Exit"
-        Me.btnExit.UseVisualStyleBackColor = True
+        Me.btnExit.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.btnExit.UseVisualStyleBackColor = False
         '
         'lblLeft
         '
-        Me.lblLeft.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Bold)
-        Me.lblLeft.Location = New System.Drawing.Point(61, 38)
+        Me.lblLeft.Font = New System.Drawing.Font("Arial", 16.0!, System.Drawing.FontStyle.Bold)
+        Me.lblLeft.Location = New System.Drawing.Point(146, 60)
         Me.lblLeft.Name = "lblLeft"
         Me.lblLeft.Size = New System.Drawing.Size(110, 39)
         Me.lblLeft.TabIndex = 4
         Me.lblLeft.Text = "Left"
         Me.lblLeft.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblLeft.Visible = False
         '
         'lblMiddle
         '
-        Me.lblMiddle.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Bold)
-        Me.lblMiddle.Location = New System.Drawing.Point(30, 89)
+        Me.lblMiddle.Font = New System.Drawing.Font("Arial", 16.0!, System.Drawing.FontStyle.Bold)
+        Me.lblMiddle.Location = New System.Drawing.Point(146, 60)
         Me.lblMiddle.Name = "lblMiddle"
         Me.lblMiddle.Size = New System.Drawing.Size(110, 39)
         Me.lblMiddle.TabIndex = 5
         Me.lblMiddle.Text = "Middle"
         Me.lblMiddle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblMiddle.Visible = False
         '
         'lblRight
         '
-        Me.lblRight.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Bold)
+        Me.lblRight.Font = New System.Drawing.Font("Arial", 16.0!, System.Drawing.FontStyle.Bold)
         Me.lblRight.Location = New System.Drawing.Point(146, 60)
         Me.lblRight.Name = "lblRight"
         Me.lblRight.Size = New System.Drawing.Size(110, 39)
         Me.lblRight.TabIndex = 6
         Me.lblRight.Text = "Right"
         Me.lblRight.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.lblRight.Visible = False
         '
         'latinTranslator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.Gainsboro
         Me.ClientSize = New System.Drawing.Size(402, 233)
         Me.Controls.Add(Me.lblRight)
         Me.Controls.Add(Me.lblMiddle)
