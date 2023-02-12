@@ -5,9 +5,6 @@
 '         Each button reveals the English translation when clicked
 '         The user can click Exit to close the window at any time
 Public Class latinTranslator
-    Private Sub lblRight_Click(sender As Object, e As EventArgs) Handles lblRight.Click
-
-    End Sub
 
     Private Sub btnDexter_Click(sender As Object, e As EventArgs) Handles btnDexter.Click
         ' on click, shows lblRight, hides lblLeft & lblMiddle
