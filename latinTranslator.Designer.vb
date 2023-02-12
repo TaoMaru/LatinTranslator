@@ -34,7 +34,7 @@ Partial Class latinTranslator
         'btnSinister
         '
         Me.btnSinister.Font = New System.Drawing.Font("Times New Roman", 10.0!)
-        Me.btnSinister.Location = New System.Drawing.Point(38, 205)
+        Me.btnSinister.Location = New System.Drawing.Point(24, 152)
         Me.btnSinister.Name = "btnSinister"
         Me.btnSinister.Size = New System.Drawing.Size(114, 29)
         Me.btnSinister.TabIndex = 0
@@ -44,7 +44,7 @@ Partial Class latinTranslator
         'btnMedium
         '
         Me.btnMedium.Font = New System.Drawing.Font("Times New Roman", 10.0!)
-        Me.btnMedium.Location = New System.Drawing.Point(184, 205)
+        Me.btnMedium.Location = New System.Drawing.Point(144, 152)
         Me.btnMedium.Name = "btnMedium"
         Me.btnMedium.Size = New System.Drawing.Size(114, 29)
         Me.btnMedium.TabIndex = 1
@@ -54,7 +54,7 @@ Partial Class latinTranslator
         'btnDexter
         '
         Me.btnDexter.Font = New System.Drawing.Font("Times New Roman", 10.0!)
-        Me.btnDexter.Location = New System.Drawing.Point(330, 205)
+        Me.btnDexter.Location = New System.Drawing.Point(264, 152)
         Me.btnDexter.Name = "btnDexter"
         Me.btnDexter.Size = New System.Drawing.Size(114, 29)
         Me.btnDexter.TabIndex = 2
@@ -64,7 +64,7 @@ Partial Class latinTranslator
         'btnExit
         '
         Me.btnExit.Font = New System.Drawing.Font("Times New Roman", 10.0!)
-        Me.btnExit.Location = New System.Drawing.Point(184, 266)
+        Me.btnExit.Location = New System.Drawing.Point(144, 192)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(114, 29)
         Me.btnExit.TabIndex = 3
@@ -73,33 +73,39 @@ Partial Class latinTranslator
         '
         'lblLeft
         '
+        Me.lblLeft.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Bold)
         Me.lblLeft.Location = New System.Drawing.Point(61, 38)
         Me.lblLeft.Name = "lblLeft"
-        Me.lblLeft.Size = New System.Drawing.Size(100, 23)
+        Me.lblLeft.Size = New System.Drawing.Size(110, 39)
         Me.lblLeft.TabIndex = 4
-        Me.lblLeft.Text = "Label1"
+        Me.lblLeft.Text = "Left"
+        Me.lblLeft.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblMiddle
         '
-        Me.lblMiddle.Location = New System.Drawing.Point(81, 110)
+        Me.lblMiddle.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Bold)
+        Me.lblMiddle.Location = New System.Drawing.Point(30, 89)
         Me.lblMiddle.Name = "lblMiddle"
-        Me.lblMiddle.Size = New System.Drawing.Size(100, 23)
+        Me.lblMiddle.Size = New System.Drawing.Size(110, 39)
         Me.lblMiddle.TabIndex = 5
-        Me.lblMiddle.Text = "Label2"
+        Me.lblMiddle.Text = "Middle"
+        Me.lblMiddle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'lblRight
         '
-        Me.lblRight.Location = New System.Drawing.Point(170, 71)
+        Me.lblRight.Font = New System.Drawing.Font("Times New Roman", 16.0!, System.Drawing.FontStyle.Bold)
+        Me.lblRight.Location = New System.Drawing.Point(146, 60)
         Me.lblRight.Name = "lblRight"
-        Me.lblRight.Size = New System.Drawing.Size(100, 23)
+        Me.lblRight.Size = New System.Drawing.Size(110, 39)
         Me.lblRight.TabIndex = 6
-        Me.lblRight.Text = "Label3"
+        Me.lblRight.Text = "Right"
+        Me.lblRight.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'latinTranslator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(482, 323)
+        Me.ClientSize = New System.Drawing.Size(402, 233)
         Me.Controls.Add(Me.lblRight)
         Me.Controls.Add(Me.lblMiddle)
         Me.Controls.Add(Me.lblLeft)
