@@ -33,64 +33,65 @@ Partial Class latinTranslator
         '
         'btnSinister
         '
-        Me.btnSinister.Location = New System.Drawing.Point(138, 227)
+        Me.btnSinister.Font = New System.Drawing.Font("Times New Roman", 10.0!)
+        Me.btnSinister.Location = New System.Drawing.Point(38, 205)
         Me.btnSinister.Name = "btnSinister"
-        Me.btnSinister.Size = New System.Drawing.Size(75, 23)
+        Me.btnSinister.Size = New System.Drawing.Size(114, 29)
         Me.btnSinister.TabIndex = 0
         Me.btnSinister.Text = "Sinister"
         Me.btnSinister.UseVisualStyleBackColor = True
         '
         'btnMedium
         '
-        Me.btnMedium.Location = New System.Drawing.Point(339, 227)
+        Me.btnMedium.Font = New System.Drawing.Font("Times New Roman", 10.0!)
+        Me.btnMedium.Location = New System.Drawing.Point(184, 205)
         Me.btnMedium.Name = "btnMedium"
-        Me.btnMedium.Size = New System.Drawing.Size(75, 23)
+        Me.btnMedium.Size = New System.Drawing.Size(114, 29)
         Me.btnMedium.TabIndex = 1
         Me.btnMedium.Text = "Medium"
         Me.btnMedium.UseVisualStyleBackColor = True
         '
         'btnDexter
         '
-        Me.btnDexter.Location = New System.Drawing.Point(585, 227)
+        Me.btnDexter.Font = New System.Drawing.Font("Times New Roman", 10.0!)
+        Me.btnDexter.Location = New System.Drawing.Point(330, 205)
         Me.btnDexter.Name = "btnDexter"
-        Me.btnDexter.Size = New System.Drawing.Size(75, 23)
+        Me.btnDexter.Size = New System.Drawing.Size(114, 29)
         Me.btnDexter.TabIndex = 2
         Me.btnDexter.Text = "Dexter"
         Me.btnDexter.UseVisualStyleBackColor = True
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(355, 388)
+        Me.btnExit.Font = New System.Drawing.Font("Times New Roman", 10.0!)
+        Me.btnExit.Location = New System.Drawing.Point(184, 266)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(75, 23)
+        Me.btnExit.Size = New System.Drawing.Size(114, 29)
         Me.btnExit.TabIndex = 3
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'lblLeft
         '
-        Me.lblLeft.AutoSize = True
-        Me.lblLeft.Location = New System.Drawing.Point(161, 47)
+        Me.lblLeft.Location = New System.Drawing.Point(61, 38)
         Me.lblLeft.Name = "lblLeft"
-        Me.lblLeft.Size = New System.Drawing.Size(51, 17)
+        Me.lblLeft.Size = New System.Drawing.Size(100, 23)
         Me.lblLeft.TabIndex = 4
         Me.lblLeft.Text = "Label1"
         '
         'lblMiddle
         '
-        Me.lblMiddle.AutoSize = True
-        Me.lblMiddle.Location = New System.Drawing.Point(314, 65)
+        Me.lblMiddle.Location = New System.Drawing.Point(81, 110)
         Me.lblMiddle.Name = "lblMiddle"
-        Me.lblMiddle.Size = New System.Drawing.Size(51, 17)
+        Me.lblMiddle.Size = New System.Drawing.Size(100, 23)
         Me.lblMiddle.TabIndex = 5
         Me.lblMiddle.Text = "Label2"
         '
         'lblRight
         '
-        Me.lblRight.AutoSize = True
-        Me.lblRight.Location = New System.Drawing.Point(462, 74)
+        Me.lblRight.Location = New System.Drawing.Point(170, 71)
         Me.lblRight.Name = "lblRight"
-        Me.lblRight.Size = New System.Drawing.Size(51, 17)
+        Me.lblRight.Size = New System.Drawing.Size(100, 23)
         Me.lblRight.TabIndex = 6
         Me.lblRight.Text = "Label3"
         '
@@ -98,7 +99,7 @@ Partial Class latinTranslator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(482, 323)
         Me.Controls.Add(Me.lblRight)
         Me.Controls.Add(Me.lblMiddle)
         Me.Controls.Add(Me.lblLeft)
@@ -109,7 +110,6 @@ Partial Class latinTranslator
         Me.Name = "latinTranslator"
         Me.Text = "Latin Translator"
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
 
